@@ -1,0 +1,82 @@
+<html>
+<head>		
+	<title>Fire Status Test Page</title>
+	<style>
+		html {
+			overflow: scroll;
+		}
+		body {
+			font-family: Monospace;
+			font-size:16px;
+			background-color: #888888;
+			margin: 10px;
+			overflow: hidden;
+		}
+		#div_bg {
+			border: 0px solid yellow;
+			background-color:#000000;
+			width:100%;			
+			max-width:640px;
+			text-align:center;
+			margin:0px auto;
+		}	
+		#div_dark {
+			border: 0px solid yellow;
+			background-color:#000000;
+			width:100%;			
+			max-width:640px;
+			text-align:center;
+			margin:0px auto;
+		}			
+		#div_movie {
+			border: 0px solid #404040;
+			background-color:#000000;
+			width:100%;			
+			max-width:640px;
+			text-align:center;
+			margin:2px auto;
+		}			
+		#span_descr {
+			width:100%;
+			padding-left:0px;
+			border: 0px solid black;
+			color:#cccccc;
+		}		
+		#vv {
+			width:400;
+			height:200;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}		
+	</style>
+</head>
+
+<body>
+	<div id="div_bg">
+		<div id="div_dark">	
+			<span id="span_descr">
+			Fire Status test page by Ken York
+			</span>	
+		</div>
+		
+		<div id="div_movie">			
+			<video id="vv" autoplay muted loop>
+				<source src="video/fs_anim.mp4" type="video/mp4">  
+			</video>			
+		</div>
+		
+		<div id="div_dark">	
+			<span id="span_descr">
+			Sydney Service Area
+			</span>	
+		</div>
+		
+		<div id="div_dark">			
+			<img id = "img_only" src="img/sydney1.jpg"/><br>
+		</div>	
+	</div>
+	
+</body>
+
+</html>
